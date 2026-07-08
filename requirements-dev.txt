@@ -1,0 +1,5 @@
+# Extra dependency needed only to run tests/test_api.py (the HTTP-layer
+# tests). tests/test_core.py needs nothing beyond the standard library and
+# requirements.txt.
+
+httpx>=0.27,<1
